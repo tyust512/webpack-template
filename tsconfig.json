@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "sourceMap": true, // 生成sourcemap供浏览器调试
+    "allowJs": false, 
+    "module": "esnext",  
+    "target": "es5", // 转换的目标
+    "moduleResolution": "node",
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "node_modules", 
+    "dist", 
+    "*.test.js"
+  ],
+}
+
+// https://www.tslang.cn/docs/handbook/tsconfig-json.html
+// http://json.schemastore.org/tsconfig
